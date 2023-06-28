@@ -1,0 +1,20 @@
+h3
+{
+    font-size: 25px;
+    font-weight: bold;
+}
+canvas
+{
+    animation-name: boxshadow;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes boxshadow
+{
+    from{box-shadow : 1px 1px 50px rgb(48, 162, 200);}
+    to{box-shadow: 1px 1px 50px rgb(178, 75, 178);}
+}
+#btn:hover
+{
+    background-color: coral;
+}
